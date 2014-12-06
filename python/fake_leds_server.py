@@ -12,7 +12,7 @@ import json
 import termios, sys, os
 
 HOST = 'localhost'	# Symbolic name meaning all available interfaces
-PORT = 30000           	# Arbitrary non-privileged port
+PORT = 30001           	# Arbitrary non-privileged port
 
 LED_MAX_VAL = 4095	# Value for max power of the leds
 NB_LEDS = 11		# Number max of leds that can be connected to the board

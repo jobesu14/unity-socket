@@ -68,7 +68,7 @@ class LedsControl():
     def quit(self):
         if self.device is not None:
 	    if self.enabled:
-		device.stophandler()
+			device.stophandler()
 	    self.device.close()
         
         self.close()
